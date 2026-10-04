@@ -1,0 +1,15 @@
+{
+  "benchmark": "Pylint_Quality_Lab_Results",
+  "project": "K_GRAPHRAG",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://pylint.readthedocs.io/",
+  "results": {
+    "framework": "Pylint \u2014 Python Code Quality Analyzer",
+    "source": "https://pylint.readthedocs.io/",
+    "files_analyzed": 5,
+    "pylint_score": 9.18,
+    "pylint_score_max": 10.0,
+    "status": "PASS",
+    "raw_output": "************* Module scripts.copy_build_assets\nTIER_4_INFERENCE_AGENTS\\K_GRAPHRAG\\UPSTREAM\\scripts\\copy_build_assets.py:11:0: C0301: Line too long (106/100) (line-too-long)\n************* Module scripts.update_workspace_dependency_versions\nTIER_4_INFERENCE_AGENTS\\K_GRAPHRAG\\UPSTREAM\\scripts\\update_workspace_dependency_versions.py:14:17: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)\n************* Module tests.conftest\nTIER_4_INFERENCE_AGENTS\\K_GRAPHRAG\\UPSTREAM\\tests\\conftest.py:1:0: C0114: Missing module docstring (missing-module-docstring)\nTIER_4_INFERENCE_AGENTS\\K_GRAPHRAG\\UPSTREAM\\tests\\conftest.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)\n\n------------------------------------------------------------------\nYour code has been rated at 9.18/10 (previous run: 5.92/10, +3.26)"
+  }
+}

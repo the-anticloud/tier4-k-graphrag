@@ -1,0 +1,28 @@
+# Upstream Provenance
+
+**Project:** `K_GRAPHRAG`  
+**Tier:** TIER_4_INFERENCE_AGENTS  
+**Identity:** Upstream `microsoft/graphrag` @ `769542fbf1d8` (MIT)
+
+## Recorded identity
+
+| Fact | Value |
+| --- | --- |
+| Upstream | `microsoft/graphrag` |
+| Commit | `769542fbf1d8e5b4c6a8677fefc34621c87894c5` |
+| Upstream licence | MIT |
+| Licence class | permissive |
+| Clone size | 16.89 MB |
+| Ledger | 0 blocks, chain verified |
+| Current TRL | NOT YET MEASURED |
+| Post-optimisation TRL | NOT YET MEASURED |
+| II budget cap | 1000.0 IIU |
+| Verified upstream edits | 1 |
+
+## Obligation
+
+`K_GRAPHRAG` is vendored under MIT (permissive). Any Anticloud edit to
+the vendored tree is a derivative work and is tracked in
+`anticloud-edits.json`; the notice of changes is at the project `NOTICE.md`.
+Where the licence class is `unknown`, no edit may be applied until the
+licence is identified, because the absence of a licence is not a grant.

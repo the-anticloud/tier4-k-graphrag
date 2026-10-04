@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "K_GRAPHRAG",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "microsoft/graphrag",
+  "commit": "769542fbf1d8",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 53.31,
+      "min": 45.52,
+      "max": 75.86,
+      "all": [
+        75.86,
+        49.54,
+        45.52,
+        50.08,
+        45.54
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "K_GRAPHRAG (microsoft/graphrag) \u2014 910 files, 51964 source lines, licence MIT, primary language ['Python']",
+      "token_count": 32,
+      "tokens_preview": [
+        "[CLS]",
+        "k",
+        "_",
+        "graph",
+        "##rag",
+        "(",
+        "microsoft",
+        "/",
+        "graph",
+        "##rag",
+        ")",
+        "\u2014",
+        "910",
+        "files",
+        ",",
+        "51",
+        "##9",
+        "##64",
+        "source",
+        "lines"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5906,
+      "classification_latency_ms": 91.95,
+      "status": "PASS"
+    }
+  }
+}

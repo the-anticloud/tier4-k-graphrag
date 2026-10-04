@@ -1,0 +1,47 @@
+{
+  "benchmark": "HELM_Lab_Results",
+  "project": "K_GRAPHRAG",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "microsoft/graphrag",
+  "commit": "769542fbf1d8",
+  "run_timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_load_time_sec": 2.96,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HELM \u2014 Stanford Holistic Evaluation of Language Models (proxy)",
+    "source": "https://github.com/stanford-crfm/helm",
+    "note": "Full HELM requires GPU. Proxy: consistency + latency across 3 deterministic runs.",
+    "input": "Project K_GRAPHRAG provides 910 tracked files across ['Python', 'Shell'] with 51964 source lines.",
+    "runs": [
+      {
+        "seed": 0,
+        "label": "LABEL_0",
+        "score": 0.536,
+        "latency_ms": 35.03
+      },
+      {
+        "seed": 1,
+        "label": "LABEL_0",
+        "score": 0.536,
+        "latency_ms": 45.95
+      },
+      {
+        "seed": 2,
+        "label": "LABEL_0",
+        "score": 0.536,
+        "latency_ms": 48.99
+      }
+    ],
+    "consistency": "PASS",
+    "avg_latency_ms": 43.32,
+    "status": "PASS",
+    "language_diversity": 4,
+    "primary_language": "Python",
+    "fairness_keywords_found": true
+  }
+}
